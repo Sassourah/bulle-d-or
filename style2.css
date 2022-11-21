@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(246, 246, 253);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenu-form{
+    width: 400px;
+    background: white;
+    border-radius: 10px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.contenu-form form{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+form input{
+    padding: 10px;
+}
+
+form button{
+    width: 100%;
+    background: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+thead{
+    background: green;
+}
+
+.montant{
+    background: green;
+    color: white;
+    width: 80%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.personnes{
+    width: 600px;
+    background: white;
+    border-radius: 10px;
+    max-height: 200px;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin-right: 20px;
+    overflow-y: auto;
+    padding-top: 130px;
+}
+
+.personnes h4{
+    background: green;
+    padding: 5px;
+    color: white;
+    border: 1px solid gray;
+}
+
+.personnes p{
+    padding: 5px;
+}
+
+.liste-input{
+    width: 600px;
+    display: flex;
+}
